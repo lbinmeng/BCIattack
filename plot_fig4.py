@@ -47,6 +47,6 @@ for i in range(3):
     plt.title(dataset, fontsize=fontsize + 2)
 
     plt.tight_layout()
-    plt.savefig('fig/different_keys_' + dataset + '_' + model + '.jpg', dpi=300)
+    plt.savefig('../results/different_keys_' + dataset + '_' + model + '.jpg', dpi=300)
     plt.close()
     # plt.show()

@@ -71,5 +71,5 @@ for i in range(3):
         plt.legend(lines, [l.get_label() for l in lines], loc='lower right', fontsize=fontsize)
 
 plt.tight_layout()
-plt.savefig('../influence_of_poisoning_number_' + model + '.jpg', dpi=300)
+plt.savefig('../results/influence_of_poisoning_number_' + model + '.jpg', dpi=300)
 plt.show()

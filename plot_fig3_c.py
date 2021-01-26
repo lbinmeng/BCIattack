@@ -61,5 +61,5 @@ for i in range(3):
 
 plt.tight_layout()
 plt.subplots_adjust(wspace=0.5, hspace=0)
-plt.savefig('../influence_of_amplitude_' + model + '.jpg', dpi=300)
+plt.savefig('../results/influence_of_amplitude_' + model + '.jpg', dpi=300)
 plt.show()

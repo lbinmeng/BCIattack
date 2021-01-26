@@ -49,6 +49,6 @@ for i in range(3):
 sb.set_context('paper', font_scale=0.9)
 plt.tight_layout()
 # plt.subplots_adjust(wspace=0.5, hspace=0)
-plt.savefig('fig/physical_attack.jpg', dpi=300)
+plt.savefig('../results/physical_attack.jpg', dpi=300)
 plt.show()
 
